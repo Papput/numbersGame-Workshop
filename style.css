@@ -1,0 +1,69 @@
+form {
+    margin: 1rem auto;
+}
+
+.form_gues {
+    display: none;
+}
+
+.popupWrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+    padding: 3rem;
+}
+
+.popupClose {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    display: block;
+    margin: 2rem 0;
+}
+
+.highScore p {
+    text-align: center;
+}
+
+#highScore {
+    display: none;
+}
+table {
+    margin: 3rem auto;
+}
+
+.newHighScore {
+    animation-name: newHighScore;
+    animation-duration: 1s;
+}
+
+@keyframes newHighScore {
+    0% {
+        box-shadow: none;
+    }
+    50% {
+        box-shadow: 0 0 8px green;
+    }
+    100% {
+        box-shadow: none;
+    }
+}
